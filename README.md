@@ -18,22 +18,39 @@
 
 ## 🏗️ Архитектура проекта
 UnrealGameAndroid/
+
 ├── 📂 Source/Game/ # C++ исходный код
+
 │ ├── Game.cpp # Основной модуль игры
+
 │ ├── Game.h
+
 │ ├── MyGameInstance.cpp # Кастомный GameInstance с FPS
+
 │ └── PerformanceWidget.cpp # Виджет статистики
+
 ├── 📂 Content/ # Ассеты Unreal Engine
+
 │ ├── Blueprints/ # Визуальные скрипты
+
 │ ├── Textures/ # Оптимизированные текстуры
+
 │ ├── Meshes/ # 3D-модели
+
 │ └── Animations/ # Анимации
+
 ├── 📂 Config/ # Конфигурационные файлы
+
 │ ├── DefaultEngine.ini # Основные настройки движка
+
 │ ├── DefaultScalability.ini # Настройки качества
+
 │ └── Android/ # Специфичные для Android настройки
+
 └── 📂 Build/ # Файлы сборки
+
 └── Android/ # Готовые APK и настройки
+
 
 
 ## 🚀 Быстрый старт
